@@ -1284,7 +1284,7 @@ class HttpRequest {
       headers: self.headers,
       queries: self.queries,
       cookies: self.cookies,
-      body: to_string(self.body),
+      body: is_bytes(self.body) ? self.body.to_string() : self.body,
     }
   }
 

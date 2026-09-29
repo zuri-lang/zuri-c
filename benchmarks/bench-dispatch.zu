@@ -10022,7 +10022,7 @@ var array = setup()
 def run() {
   var run_times = 10000
   for time in 0..run_times {
-    for j in array {
+    for j, _ in array {
       funcs[j](array)
     }
   }

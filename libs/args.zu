@@ -112,7 +112,6 @@
 import os
 import colors
 import io
-import reflect
 
 # ---------------------------------------------------------------------------
 # Public type constants
